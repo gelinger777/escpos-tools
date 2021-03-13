@@ -186,6 +186,6 @@ class Printout extends Command
                 $cmdStack[] = $s;
             }
         }
-        fwrite(STDERR, "WARNING: Unknown command " . implode($cmdStack, ' ') . "\n");
+        echo  "WARNING: Unknown command " . implode($cmdStack, ' ') . "\n");
     }
 }
