@@ -1,33 +1,33 @@
 {
-	
-	"name" : "gelinger777/escpos-tools",
-	"type" : "library",
-	"description" : "PHP Packager compose",
-	"homepage" : "https://github.com/gelinger777/escpos-tools",
-	"keywords" : [
-		"barcode",
-		"epson",
-		"receipt-printer",
-		"printer",
-		"escpos"
-	],
-	"license" : "MIT",
-	"authors" : [{
-			"name" : "Michael Billington",
-			"email" : "michael.billington@gmail.com"
-		},
-		     {
-			"name" : "Gelinger Media",
-			"email" : "team@gelinger.at"
-		}
-	],
-	"require" : {
-		"squizlabs/php_codesniffer" : "^2.8",
-		"mike42/escpos-php": "^1.5"
-	},
-	"autoload" : {
-		"psr-4" : {
-			"ReceiptPrintHq\\EscposTools\\" : "src/"
-		}
-	}
+   "name":"gelinger777/escpos-tools",
+   "type":"library",
+   "description":"PHP Packager compose",
+   "homepage":"https://github.com/gelinger777/escpos-tools",
+   "keywords":[
+      "barcode",
+      "epson",
+      "receipt-printer",
+      "printer",
+      "escpos"
+   ],
+   "license":"MIT",
+   "authors":[
+      {
+         "name":"Michael Billington",
+         "email":"michael.billington@gmail.com"
+      },
+      {
+         "name":"Gelinger Media",
+         "email":"team@gelinger.at"
+      }
+   ],
+   "require":{
+      "squizlabs/php_codesniffer":"^2.8",
+      "mike42/escpos-php":"^1.5"
+   },
+   "autoload":{
+      "psr-4":{
+         "ReceiptPrintHq\\EscposTools\\":"src/"
+      }
+   }
 }
